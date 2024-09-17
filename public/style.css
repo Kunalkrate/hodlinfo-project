@@ -1,0 +1,108 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table Header */
+thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+thead th {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+/* Table Rows */
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+    transition: background-color 0.2s ease;
+}
+
+/* Table Data Cells */
+tbody td {
+    padding: 12px 15px;
+    text-align: center;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Alternate row background */
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    tbody td {
+        padding: 10px;
+    }
+}
+
+/* Add subtle border and spacing between columns */
+tbody td:not(:last-child) {
+    border-right: 1px solid #e0e0e0;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+footer a {
+    color: #009879;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
